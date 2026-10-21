@@ -2,7 +2,8 @@
   "name": "Quick DNS",
   "description": "Quickly switch DNS servers from GNOME quick settings",
   "uuid": "quick-dns@nolune",
-  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.quick-dns",
+  "shell-version": ["50","51"],
   "version": 1,
   "url": "https://github.com/nolune/quick-dns",
   "license": "GPL-2.0"

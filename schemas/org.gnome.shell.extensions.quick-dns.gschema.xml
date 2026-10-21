@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.quick-dns" path="/org/gnome/shell/extensions/quick-dns/">
+    <key name="language" type="s">
+      <default>'en'</default>
+      <summary>Interface language</summary>
+      <description>Language used by the Quick DNS menu.</description>
+    </key>
+    <key name="custom-dns-servers" type="as">
+      <default>['1.1.1.1', '1.0.0.1']</default>
+      <summary>Custom DNS server addresses</summary>
+      <description>IPv4 server addresses used by the Custom DNS preset.</description>
+    </key>
+    <key name="custom-dns-migrated" type="b">
+      <default>false</default>
+      <summary>Whether custom DNS settings have been migrated</summary>
+      <description>Tracks migration from the previous two-address custom DNS settings.</description>
+    </key>
+    <key name="custom-dns1" type="s">
+      <default>'1.1.1.1'</default>
+      <summary>Legacy primary custom DNS address</summary>
+      <description>Previous primary IPv4 address, retained to migrate existing settings.</description>
+    </key>
+    <key name="custom-dns2" type="s">
+      <default>'1.0.0.1'</default>
+      <summary>Legacy secondary custom DNS address</summary>
+      <description>Previous secondary IPv4 address, retained to migrate existing settings.</description>
+    </key>
+  </schema>
+</schemalist>
